@@ -370,6 +370,7 @@ body.ownlist.anime {
     
    top: 3.5vw;
 border-radius: 0;
+	height: 4.1vw;
 }
 
 .list-table .list-table-data .data.tags a[href*="=story"]::before,.list-table .list-table-data .data.tags a[href*="=ending"]::before,.list-table .list-table-data .data.tags a[href*="=characters"]::before,.list-table .list-table-data .data.tags a[href*="=music"]::before,.list-table .list-table-data .data.tags a[href*="=animation"]::before,.list-table .list-table-data .data.tags a[href*="=directing"]::before{
