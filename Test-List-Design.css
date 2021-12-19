@@ -219,7 +219,7 @@ height: 10em;
 }
 /*end*/
 /*MOVE THE GENRES OVER*/
-.list-table .list-table-data .data.tags a[href*="=slice-of-life"],.list-table .list-table-data .data.tags a[href*="=cgdct"]{
+.list-table .list-table-data .data.tags a[href*="=slice-of-life"],.list-table .list-table-data .data.tags a[href*="=cgdct"],.list-table .list-table-data .data.tags a[href*="=drama"],.list-table .list-table-data .data.tags a[href*="=n/a"]{
 color: red;
 left: 6.5vw;
 position: relative;
@@ -227,7 +227,13 @@ width: 6vw;
 top: 3.5vw;
 }
 
+.list-table .list-table-data .data.tags a[href*="=n/a"]{
 
+	visibility:hidden;
+	
+	
+	
+}
 
 
 
