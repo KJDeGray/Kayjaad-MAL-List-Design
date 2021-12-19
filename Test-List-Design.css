@@ -445,14 +445,72 @@ padding-right: .1vw;
   
   border-width: .1vw;
 border-style: solid;
-border-color: #edc732;;
-  
+border-color: var(--score-ten-color);
   
 }
-
-
-
-
+.list-table .list-table-data .data.tags a[href*="=story9"],.list-table .list-table-data .data.tags a[href*="=ending9"],.list-table .list-table-data .data.tags a[href*="=characters9"],.list-table .list-table-data .data.tags a[href*="=music9"],.list-table .list-table-data .data.tags a[href*="=animation9"],.list-table .list-table-data .data.tags a[href*="=directing9"]{
+  
+  border-width: .1vw;
+border-style: solid;
+border-color: var(--score-nine-color);
+  
+}
+.list-table .list-table-data .data.tags a[href*="=story8"],.list-table .list-table-data .data.tags a[href*="=ending8"],.list-table .list-table-data .data.tags a[href*="=characters8"],.list-table .list-table-data .data.tags a[href*="=music8"],.list-table .list-table-data .data.tags a[href*="=animation8"],.list-table .list-table-data .data.tags a[href*="=directing8"]{
+  
+  border-width: .1vw;
+border-style: solid;
+border-color: var(--score-eight-color);
+  
+}
+.list-table .list-table-data .data.tags a[href*="=story7"],.list-table .list-table-data .data.tags a[href*="=ending7"],.list-table .list-table-data .data.tags a[href*="=characters7"],.list-table .list-table-data .data.tags a[href*="=music7"],.list-table .list-table-data .data.tags a[href*="=animation7"],.list-table .list-table-data .data.tags a[href*="=directing7"]{
+  
+  border-width: .1vw;
+border-style: solid;
+border-color: var(--score-seven-color);
+  
+}
+.list-table .list-table-data .data.tags a[href*="=story6"],.list-table .list-table-data .data.tags a[href*="=ending6"],.list-table .list-table-data .data.tags a[href*="=characters6"],.list-table .list-table-data .data.tags a[href*="=music6"],.list-table .list-table-data .data.tags a[href*="=animation6"],.list-table .list-table-data .data.tags a[href*="=directing6"]{
+  
+  border-width: .1vw;
+border-style: solid;
+border-color: var(--score-six-color);
+  
+}
+.list-table .list-table-data .data.tags a[href*="=story5"],.list-table .list-table-data .data.tags a[href*="=ending5"],.list-table .list-table-data .data.tags a[href*="=characters5"],.list-table .list-table-data .data.tags a[href*="=music5"],.list-table .list-table-data .data.tags a[href*="=animation5"],.list-table .list-table-data .data.tags a[href*="=directing5"]{
+  
+  border-width: .1vw;
+border-style: solid;
+border-color: var(--score-five-color);
+  
+}
+.list-table .list-table-data .data.tags a[href*="=story4"],.list-table .list-table-data .data.tags a[href*="=ending4"],.list-table .list-table-data .data.tags a[href*="=characters4"],.list-table .list-table-data .data.tags a[href*="=music4"],.list-table .list-table-data .data.tags a[href*="=animation4"],.list-table .list-table-data .data.tags a[href*="=directing4"]{
+  
+  border-width: .1vw;
+border-style: solid;
+border-color: var(--score-four-color);
+  
+}
+.list-table .list-table-data .data.tags a[href*="=story3"],.list-table .list-table-data .data.tags a[href*="=ending3"],.list-table .list-table-data .data.tags a[href*="=characters3"],.list-table .list-table-data .data.tags a[href*="=music3"],.list-table .list-table-data .data.tags a[href*="=animation3"],.list-table .list-table-data .data.tags a[href*="=directing3"]{
+  
+  border-width: .1vw;
+border-style: solid;
+border-color: var(--score-three-color);
+  
+}
+.list-table .list-table-data .data.tags a[href*="=story2"],.list-table .list-table-data .data.tags a[href*="=ending2"],.list-table .list-table-data .data.tags a[href*="=characters2"],.list-table .list-table-data .data.tags a[href*="=music2"],.list-table .list-table-data .data.tags a[href*="=animation2"],.list-table .list-table-data .data.tags a[href*="=directing2"]{
+  
+  border-width: .1vw;
+border-style: solid;
+border-color: var(--score-two-color);
+  
+}
+.list-table .list-table-data .data.tags a[href*="=story1"],.list-table .list-table-data .data.tags a[href*="=ending1"],.list-table .list-table-data .data.tags a[href*="=characters1"],.list-table .list-table-data .data.tags a[href*="=music1"],.list-table .list-table-data .data.tags a[href*="=animation1"],.list-table .list-table-data .data.tags a[href*="=directing1"]{
+  
+  border-width: .1vw;
+border-style: solid;
+border-color: var(--score-one-color);
+  
+}
 
 .list-table .list-table-data .data.tags a[href*="=story0"]:before,.list-table .list-table-data .data.tags a[href*="=ending0"]:before,.list-table .list-table-data .data.tags a[href*="=characters0"]:before,.list-table .list-table-data .data.tags a[href*="=music0"]:before,.list-table .list-table-data .data.tags a[href*="=animation0"]:before,.list-table .list-table-data .data.tags a[href*="=directing0"]:before{
     
