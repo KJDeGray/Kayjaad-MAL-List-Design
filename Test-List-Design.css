@@ -219,7 +219,7 @@ height: 10em;
 }
 /*end*/
 /*MOVE THE GENRES OVER*/
-.list-table .list-table-data .data.tags a[href*="=slice-of-life"],.list-table .list-table-data .data.tags a[href*="=cgdct"],.list-table .list-table-data .data.tags a[href*="=drama"],.list-table .list-table-data .data.tags a[href*="=nota"]{
+.list-table .list-table-data .data.tags a[href*="=slice-of-life"],.list-table .list-table-data .data.tags a[href*="=cgdct"],.list-table .list-table-data .data.tags a[href*="=drama"],.list-table .list-table-data .data.tags a[href*="=nota"],.list-table .list-table-data .data.tags a[href*="=romance"],.list-table .list-table-data .data.tags a[href*="=action"],.list-table .list-table-data .data.tags a[href*="=shoujo"],.list-table .list-table-data .data.tags a[href*="=shounen"]{
 color: red;
 left: 6.5vw;
 position: relative;
