@@ -1,9 +1,19 @@
 /*MAKES VARIABLE COLORS*/
 
 html{
-  
-  --behindscore-color: #000000;
-  
+
+	--behindscore-color: #000000;
+	--score-ten-color: #edc732;
+	--score-nine-color:#ff2109;
+	--score-eight-color:#e575aa;
+	--score-seven-color:#a359b8;
+	--score-six-color:#7550c5;
+	--score-five-color:#354eb0;
+	--score-four-color:#2f81a1;
+	--score-three-color:#358581;
+	--score-two-color:#315043;
+	--score-one-color:#262a26;
+	
   
 }
 
@@ -454,7 +464,7 @@ border-color: #edc732;;
     white-space: pre !important;
     font-size: .8vw !important;
     line-height: 50%;
-    color: #edc732;
+    color: var(--score-ten-color);
    
 }
 
@@ -468,7 +478,7 @@ border-color: #edc732;;
     white-space: pre !important;
     font-size: .8vw !important;
     line-height: 50%;
-    color: #ff2109;
+    color: var(--score-nine-color);
     
    
 }
@@ -483,7 +493,7 @@ border-color: #edc732;;
     white-space: pre !important;
     font-size: .8vw !important;
     line-height: 50%;
-    color: #e575aa;
+    color: var(--score-eight-color);
     
    
 }
@@ -498,7 +508,7 @@ border-color: #edc732;;
     white-space: pre !important;
     font-size: .8vw !important;
     line-height: 50%;
-    color: #a359b8;
+    color: var(--score-seven-color);
     
    
 }
@@ -513,7 +523,7 @@ border-color: #edc732;;
     white-space: pre !important;
     font-size: .8vw !important;
     line-height: 50%;
-    color: #7550c5;
+    color: var(--score-six-color);
    
 }
 
@@ -527,7 +537,7 @@ border-color: #edc732;;
     white-space: pre !important;
     font-size: .8vw !important;
     line-height: 50%;
-    color: #354eb0;
+    color: var(--score-five-color);
     
 }
 
@@ -541,7 +551,7 @@ border-color: #edc732;;
     white-space: pre !important;
     font-size: .8vw !important;
     line-height: 50%;
-    color: #2f81a1;
+    color: var(--score-four-color);
    
 }
 
@@ -555,7 +565,7 @@ border-color: #edc732;;
     white-space: pre !important;
     font-size: .8vw !important;
     line-height: 50%;
-    color: #358581;
+    color: var(--score-three-color);
    
 }
 
@@ -569,7 +579,7 @@ border-color: #edc732;;
     white-space: pre !important;
     font-size: .8vw !important;
     line-height: 50%;
-    color: #315043;
+    color: var(--score-two-color);
    
 }
 
@@ -583,7 +593,7 @@ border-color: #edc732;;
     white-space: pre !important;
     font-size: .8vw !important;
     line-height: 50%;
-    color: #262a26;
+    color: var(--score-one-color);
    
 }
 
