@@ -522,10 +522,10 @@ border-color: var(--score-one-color);
    white-space: pre !important;
     position: relative;
     visibility:visible !important;
-    letter-spacing: -1vw;
+    letter-spacing: var(--spacingof-score);
     white-space: pre !important;
-    font-size: .8vw !important;
-    line-height: 50%;
+    font-size: var(--sizeof-score) !important;
+    line-height: var(--heightof-score);
     color: var(--score-ten-color);
    
 }
