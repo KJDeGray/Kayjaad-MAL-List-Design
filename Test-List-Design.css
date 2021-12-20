@@ -536,10 +536,10 @@ border-color: var(--score-one-color);
    white-space: pre !important;
     position: relative;
     visibility:visible !important;
-    letter-spacing: -1vw;
+ letter-spacing: var(--spacingof-score);
     white-space: pre !important;
-    font-size: .8vw !important;
-    line-height: 50%;
+    font-size: var(--sizeof-score) !important;
+    line-height: var(--heightof-score);
     color: var(--score-nine-color);
     
    
@@ -551,10 +551,10 @@ border-color: var(--score-one-color);
    white-space: pre !important;
     position: relative;
     visibility:visible !important;
-    letter-spacing: -1vw;
+   letter-spacing: var(--spacingof-score);
     white-space: pre !important;
-    font-size: .8vw !important;
-    line-height: 50%;
+    font-size: var(--sizeof-score) !important;
+    line-height: var(--heightof-score);
     color: var(--score-eight-color);
     
    
@@ -566,10 +566,10 @@ border-color: var(--score-one-color);
    white-space: pre !important;
     position: relative;
     visibility:visible !important;
-    letter-spacing: -1vw;
+   letter-spacing: var(--spacingof-score);
     white-space: pre !important;
-    font-size: .8vw !important;
-    line-height: 50%;
+    font-size: var(--sizeof-score) !important;
+    line-height: var(--heightof-score);
     color: var(--score-seven-color);
     
    
@@ -581,10 +581,10 @@ border-color: var(--score-one-color);
    white-space: pre !important;
     position: relative;
     visibility:visible !important;
-    letter-spacing: -1vw;
+   letter-spacing: var(--spacingof-score);
     white-space: pre !important;
-    font-size: .8vw !important;
-    line-height: 50%;
+    font-size: var(--sizeof-score) !important;
+    line-height: var(--heightof-score);
     color: var(--score-six-color);
    
 }
@@ -595,10 +595,10 @@ border-color: var(--score-one-color);
    white-space: pre !important;
     position: relative;
     visibility:visible !important;
-    letter-spacing: -1vw;
+    letter-spacing: var(--spacingof-score);
     white-space: pre !important;
-    font-size: .8vw !important;
-    line-height: 50%;
+    font-size: var(--sizeof-score) !important;
+    line-height: var(--heightof-score);
     color: var(--score-five-color);
     
 }
@@ -609,10 +609,10 @@ border-color: var(--score-one-color);
    white-space: pre !important;
     position: relative;
     visibility:visible !important;
-    letter-spacing: -1vw;
+     letter-spacing: var(--spacingof-score);
     white-space: pre !important;
-    font-size: .8vw !important;
-    line-height: 50%;
+    font-size: var(--sizeof-score) !important;
+    line-height: var(--heightof-score);
     color: var(--score-four-color);
    
 }
@@ -623,10 +623,10 @@ border-color: var(--score-one-color);
    white-space: pre !important;
     position: relative;
     visibility:visible !important;
-    letter-spacing: -1vw;
+    letter-spacing: var(--spacingof-score);
     white-space: pre !important;
-    font-size: .8vw !important;
-    line-height: 50%;
+    font-size: var(--sizeof-score) !important;
+    line-height: var(--heightof-score);
     color: var(--score-three-color);
    
 }
@@ -637,10 +637,10 @@ border-color: var(--score-one-color);
    white-space: pre !important;
     position: relative;
     visibility:visible !important;
-    letter-spacing: -1vw;
+    letter-spacing: var(--spacingof-score);
     white-space: pre !important;
-    font-size: .8vw !important;
-    line-height: 50%;
+    font-size: var(--sizeof-score) !important;
+    line-height: var(--heightof-score);
     color: var(--score-two-color);
    
 }
@@ -651,10 +651,10 @@ border-color: var(--score-one-color);
    white-space: pre !important;
     position: relative;
     visibility:visible !important;
-    letter-spacing: -1vw;
+    letter-spacing: var(--spacingof-score);
     white-space: pre !important;
-    font-size: .8vw !important;
-    line-height: 50%;
+    font-size: var(--sizeof-score) !important;
+    line-height: var(--heightof-score);
     color: var(--score-one-color);
    
 }
@@ -673,12 +673,11 @@ border-color: var(--score-one-color);
   top: -4px;
   position: relative;
   visibility: visible !important;
-  letter-spacing: -1vw;
-  font-size: .8vw !important;
-  white-space: pre !important;
-  line-height: 50%;
-}
-
+  letter-spacing: var(--spacingof-score);
+    white-space: pre !important;
+    font-size: var(--sizeof-score) !important;
+    line-height: var(--heightof-score);
+]
 .score-9::before{
   
   color: #ff2109;
@@ -687,10 +686,10 @@ border-color: var(--score-one-color);
   top: -4px;
   position: relative;
   visibility: visible !important;
-  letter-spacing: -1vw;
-  font-size: .8vw !important;
-  white-space: pre !important;
-  line-height: 50%;
+   letter-spacing: var(--spacingof-score);
+    white-space: pre !important;
+    font-size: var(--sizeof-score) !important;
+    line-height: var(--heightof-score);
 }
 .score-8::before{
   
@@ -700,10 +699,10 @@ border-color: var(--score-one-color);
   top: -4px;
   position: relative;
   visibility: visible !important;
-  letter-spacing: -1vw;
-  font-size: .8vw !important;
-  white-space: pre !important;
-  line-height: 50%;
+   letter-spacing: var(--spacingof-score);
+    white-space: pre !important;
+    font-size: var(--sizeof-score) !important;
+    line-height: var(--heightof-score);
 }
 .score-7::before{
   
@@ -713,10 +712,10 @@ border-color: var(--score-one-color);
   top: -4px;
   position: relative;
   visibility: visible !important;
-  letter-spacing: -1vw;
-  font-size: .8vw !important;
-  white-space: pre !important;
-  line-height: 50%;
+  letter-spacing: var(--spacingof-score);
+    white-space: pre !important;
+    font-size: var(--sizeof-score) !important;
+    line-height: var(--heightof-score);
 }
 .score-6::before{
   
@@ -726,10 +725,10 @@ border-color: var(--score-one-color);
   top: -4px;
   position: relative;
   visibility: visible !important;
-  letter-spacing: -1vw;
-  font-size: .8vw !important;
-  white-space: pre !important;
-  line-height: 50%;
+   letter-spacing: var(--spacingof-score);
+    white-space: pre !important;
+    font-size: var(--sizeof-score) !important;
+    line-height: var(--heightof-score);
 }
 .score-5::before{
   
@@ -739,10 +738,10 @@ border-color: var(--score-one-color);
   top: -4px;
   position: relative;
   visibility: visible !important;
-  letter-spacing: -1vw;
-  font-size: .8vw !important;
-  white-space: pre !important;
-  line-height: 50%;
+   letter-spacing: var(--spacingof-score);
+    white-space: pre !important;
+    font-size: var(--sizeof-score) !important;
+    line-height: var(--heightof-score);
 }.score-4::before{
   
    color: #2f81a1;
@@ -751,10 +750,10 @@ border-color: var(--score-one-color);
   top: -4px;
   position: relative;
   visibility: visible !important;
-  letter-spacing: -1vw;
-  font-size: .8vw !important;
-  white-space: pre !important;
-  line-height: 50%;
+   letter-spacing: var(--spacingof-score);
+    white-space: pre !important;
+    font-size: var(--sizeof-score) !important;
+    line-height: var(--heightof-score);
 }
 .score-3::before{
   
@@ -764,10 +763,10 @@ border-color: var(--score-one-color);
   top: -4px;
   position: relative;
   visibility: visible !important;
-  letter-spacing: -1vw;
-  font-size: .8vw !important;
-  white-space: pre !important;
-  line-height: 50%;
+   letter-spacing: var(--spacingof-score);
+    white-space: pre !important;
+    font-size: var(--sizeof-score) !important;
+    line-height: var(--heightof-score);
 }
 .score-2::before{
   
@@ -777,10 +776,10 @@ border-color: var(--score-one-color);
   top: -4px;
   position: relative;
   visibility: visible !important;
-  letter-spacing: -1vw;
-  font-size: .8vw !important;
-  white-space: pre !important;
-  line-height: 50%;
+  letter-spacing: var(--spacingof-score);
+    white-space: pre !important;
+    font-size: var(--sizeof-score) !important;
+    line-height: var(--heightof-score);
 }
 .score-1::before{
   
@@ -791,10 +790,10 @@ border-color: var(--score-one-color);
   top: -4px;
   position: relative;
   visibility: visible !important;
-  letter-spacing: -1vw;
-  font-size: .8vw !important;
-  white-space: pre !important;
-  line-height: 50%;
+   letter-spacing: var(--spacingof-score);
+    white-space: pre !important;
+    font-size: var(--sizeof-score) !important;
+    line-height: var(--heightof-score);
 }
 /*end*/
 
