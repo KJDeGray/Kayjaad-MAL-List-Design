@@ -24,7 +24,9 @@ td.data.type{
 td.data.number{
   display:none!important;
 }
-
+td.data.days{
+  display:none!important;
+}
 
 .data.tags span{
   
