@@ -536,7 +536,7 @@ border-color: var(--score-one-color);
 
 .list-table .list-table-data .data.tags a[href*="=story0"]:before,.list-table .list-table-data .data.tags a[href*="=ending0"]:before,.list-table .list-table-data .data.tags a[href*="=characters0"]:before,.list-table .list-table-data .data.tags a[href*="=music0"]:before,.list-table .list-table-data .data.tags a[href*="=animation0"]:before,.list-table .list-table-data .data.tags a[href*="=directing0"]:before{
     
-    content: " \25FC\a  \25FC\a  \25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
+    content: "\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
    white-space: pre !important;
     position: relative;
     visibility:visible !important;
@@ -550,7 +550,7 @@ border-color: var(--score-one-color);
 
 .list-table .list-table-data .data.tags a[href*="=story9"]:before,.list-table .list-table-data .data.tags a[href*="=ending9"]:before,.list-table .list-table-data .data.tags a[href*="=characters9"]:before,.list-table .list-table-data .data.tags a[href*="=music9"]:before,.list-table .list-table-data .data.tags a[href*="=animation9"]:before,.list-table .list-table-data .data.tags a[href*="=directing9"]:before{
     
-    content: " \a  \25FC\a  \25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
+    content: "\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
    white-space: pre !important;
     position: relative;
     visibility:visible !important;
@@ -565,7 +565,7 @@ border-color: var(--score-one-color);
 
 .list-table .list-table-data .data.tags a[href*="=story8"]:before,.list-table .list-table-data .data.tags a[href*="=ending8"]:before,.list-table .list-table-data .data.tags a[href*="=characters8"]:before,.list-table .list-table-data .data.tags a[href*="=music8"]:before,.list-table .list-table-data .data.tags a[href*="=animation8"]:before,.list-table .list-table-data .data.tags a[href*="=directing8"]:before{
     
-    content: " \a  \a \25FC \a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
+    content: "\a\a\25FC \a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
    white-space: pre !important;
     position: relative;
     visibility:visible !important;
@@ -580,7 +580,7 @@ border-color: var(--score-one-color);
 
 .list-table .list-table-data .data.tags a[href*="=story7"]:before,.list-table .list-table-data .data.tags a[href*="=ending7"]:before,.list-table .list-table-data .data.tags a[href*="=characters7"]:before,.list-table .list-table-data .data.tags a[href*="=music7"]:before,.list-table .list-table-data .data.tags a[href*="=animation7"]:before,.list-table .list-table-data .data.tags a[href*="=directing7"]:before{
     
-    content: " \a  \a  \a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
+    content: "\a\a\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
    white-space: pre !important;
     position: relative;
     visibility:visible !important;
@@ -595,7 +595,7 @@ border-color: var(--score-one-color);
 
 .list-table .list-table-data .data.tags a[href*="=story6"]:before,.list-table .list-table-data .data.tags a[href*="=ending6"]:before,.list-table .list-table-data .data.tags a[href*="=characters6"]:before,.list-table .list-table-data .data.tags a[href*="=music6"]:before,.list-table .list-table-data .data.tags a[href*="=animation6"]:before,.list-table .list-table-data .data.tags a[href*="=directing6"]:before{
     
-    content: " \a  \a  \a \a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
+    content: " \a\a\a\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
    white-space: pre !important;
     position: relative;
     visibility:visible !important;
@@ -609,7 +609,7 @@ border-color: var(--score-one-color);
 
 .list-table .list-table-data .data.tags a[href*="=story5"]:before,.list-table .list-table-data .data.tags a[href*="=ending5"]:before,.list-table .list-table-data .data.tags a[href*="=characters5"]:before,.list-table .list-table-data .data.tags a[href*="=music5"]:before,.list-table .list-table-data .data.tags a[href*="=animation5"]:before,.list-table .list-table-data .data.tags a[href*="=directing5"]:before{
     
-    content: " \a  \a  \a \a \a \25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
+    content: " \a\a\a\a\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
    white-space: pre !important;
     position: relative;
     visibility:visible !important;
@@ -686,7 +686,7 @@ border-color: var(--score-one-color);
 .score-10::before{
   
    color: #edc732;
-   content: "\25FC \a \25FC \a \25FC \a \25FC\a\25FC \a \25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
+   content: "\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
   left: -3px;
   top: -4px;
   position: relative;
@@ -699,7 +699,7 @@ border-color: var(--score-one-color);
 .score-9::before{
   
   color: #ff2109;
-  content: " \a \25FC \a \25FC \a \25FC\a\25FC \a \25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
+  content: "\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
   left: -3px;
   top: -4px;
   position: relative;
@@ -712,7 +712,7 @@ border-color: var(--score-one-color);
 .score-8::before{
   
   color: #e575aa;
-  content: " \a  \a \25FC\a\25FC\a\25FC\a \25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
+  content: "\a\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
   left: -3px;
   top: -4px;
   position: relative;
@@ -725,7 +725,7 @@ border-color: var(--score-one-color);
 .score-7::before{
   
   color: #a359b8;
-  content: " \a  \a  \a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
+  content: "\a\a\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
   left: -3px;
   top: -4px;
   position: relative;
@@ -738,7 +738,7 @@ border-color: var(--score-one-color);
 .score-6::before{
   
    color: #7550c5;
-   content: " \a  \a  \a \a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
+   content: "\a\a\a\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
   left: -3px;
   top: -4px;
   position: relative;
@@ -751,7 +751,7 @@ border-color: var(--score-one-color);
 .score-5::before{
   
   color: #354eb0;
-  content: " \a  \a  \a \a \a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\a";
+  content: "\a\a\a\a\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\a";
   left: -3px;
   top: -4px;
   position: relative;
