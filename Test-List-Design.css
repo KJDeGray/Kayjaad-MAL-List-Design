@@ -58,8 +58,7 @@ td.data.days{
 /*turns the list into a grid*/
 tr.list-table-data{
 display: grid;
-grid-template-columns: .7vw 1.4vw .7vw 1.4vw 1.4vw 1.4vw 1.4vw 1.4vw 1.4vw 1.4vw 14vw 7vw 6vw auto !important;
-width:40vw;
+grid-template-columns: 1fr 9fr 10fr 10fr !important;
 background-color:white;
 min-height:12em;
 }
@@ -75,7 +74,7 @@ min-height:12em;
 td.data.title.clearfix {
     grid-row: 1;
     grid-column-start: 1;
-    grid-column-end: 14;
+    grid-column-end: 5;
     text-align: center !important;
 }
 
@@ -99,7 +98,7 @@ width: 1.8vw;
 
 
 td.data.image{
-  grid-column:11!important;
+  grid-column:3!important;
 }
 
 td.data.tags{
@@ -108,7 +107,7 @@ td.data.tags{
 	padding: 3px 0 !important;
 	margin-right: 8px;
 	flex-shrink: 1;
-        grid-column:12;
+        grid-column:4;
         grid-row:2;
   
 }
@@ -120,8 +119,8 @@ td.data.tags{
 
 td.data.progress{
   visibility: hidden;
-  grid-column:13!important;
-
+  grid-column:5!important;
+  display:none !important;
   
 }
 
