@@ -910,37 +910,6 @@ top: 3.5vw;
   
 }
 
-.list-table .list-table-data .data.tags a[href*="=story"]{
-left: -24.3vw;
-
-}
-.list-table .list-table-data .data.tags a[href*="=ending"]{
- 
-    left: -23.1vw;
- 
-}
-.list-table .list-table-data .data.tags a[href*="=characters"]{
- 
-    left: -21.9vw;
-
-}
-.list-table .list-table-data .data.tags a[href*="=music"]{
- 
-    left: -20.7vw;
-
-}
-.list-table .list-table-data .data.tags a[href*="=animation"]{
- 
-    left: -19.5vw;
-
-}
-.list-table .list-table-data .data.tags a[href*="=directing"]{
- 
-    left: -18.3vw;
-    
-}
-
-
 /*FOR INDIVIDUAL SCORES*/
 .list-table .list-table-data .data.tags a[href*="=story0"],.list-table .list-table-data .data.tags a[href*="=ending0"],.list-table .list-table-data .data.tags a[href*="=characters0"],.list-table .list-table-data .data.tags a[href*="=music0"],.list-table .list-table-data .data.tags a[href*="=animation0"],.list-table .list-table-data .data.tags a[href*="=directing0"]{
  
