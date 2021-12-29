@@ -269,6 +269,470 @@ border-radius: 20%;
 	  
 	}
 
+	
+	.data.tags span a::after{
+	  position: absolute;
+z-index: 12;
+
+display: none;
+background-color: black;
+content: "well this is a test";
+min-width: 5em;
+max-width: 20em;
+padding-block: 2em;
+padding-inline: 2em;
+border-color: gray;
+border-style: solid;
+border-radius: 20%;
+	}
+	
+	.data.tags span a:hover::after{
+	  
+	  font-size:12px;
+	  display:block;
+	  
+	}
+	/* END */
+	.list-table .list-table-data .data.tags a::before{
+	  
+	  z-index:6;
+	  
+	}
+	
+	
+	
+	/* COMPILE INTO GITHUB AFTER*/
+	
+	
+	.list-table .list-table-data .data.tags a[href*="=story"], .list-table .list-table-data .data.tags a[href*="=ending"], .list-table .list-table-data .data.tags a[href*="=characters"], .list-table .list-table-data .data.tags a[href*="=music"], .list-table .list-table-data .data.tags a[href*="=animation"], .list-table .list-table-data .data.tags a[href*="=directing"]{
+	  top:5rem;
+	  transform:scale(var(--scalex-score),var(--scaley-score));
+	 
+	}
+	.list-table .list-table-data .data.tags a[href*="=story"]::after, .list-table .list-table-data .data.tags a[href*="=ending"]::after, .list-table .list-table-data .data.tags a[href*="=characters"]::after, .list-table .list-table-data .data.tags a[href*="=music"]::after, .list-table .list-table-data .data.tags a[href*="=animation"]::after, .list-table .list-table-data .data.tags a[href*="=directing"]::after{
+	 
+	  transform:scale(calc(1/var(--scalex-score)),calc(1/var(--scaley-score)));
+	 
+	}
+	
+	
+	
+	
+	
+	
+	.list-table .list-table-data .data.tags a[href*="=story"]{
+	  
+	  
+left: calc(var(--full-left-offset-score) + var(--individual-left-offset-score) *  5);
+
+}
+.list-table .list-table-data .data.tags a[href*="=story"]::after{
+	  
+	  
+left: -7rem;
+
+}
+	.list-table .list-table-data .data.tags a[href*="=story0"]::after{
+	  
+	  
+content:"Story: 10/10 \a\a  The story of this show is THE BEST I have ever seen. \a\ The setting and plotlines were captivating and had me wondering \a\ what was going to happen next after each episode";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=story9"]::after{
+	  
+	  
+content:"Story: 9/10 \a\a  The story of this show is one of my absolute favorites \a I was incredibly invested in each episode \a to the point I lost sleep over the show. "
+}
+	.list-table .list-table-data .data.tags a[href*="=story8"]::after{
+	  
+	  
+content:"Story: 8/10 \a\a  I loved this show for its plot. \a If the show had nothing else going for it i'd still love it \a from just how good its plot is.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=story7"]::after{
+	  
+	  
+content:"story: 7/10 \a\a This show had an amazing plot. \a While not quite good enough to carry the anime on its own, \a it's still a very strong point of the show."
+}
+	.list-table .list-table-data .data.tags a[href*="=story6"]::after{
+	  
+	  
+content:"story: 6/10 \a\a The story of this anime was very good. \a I have many more good things to say about the plot than bad things";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=story5"]::after{
+	  
+	  
+content:"story: 5/10 \a\a The story of this anime is good. \a I have a few more good things to say about the plot rather than bad things.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=story4"]::after{
+	  
+	  
+content:"Story: 4/10 \a\a The plot of this anime was acceptable. \a There may be a plothole or two but \a I can say just as many good things about the show.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=story3"]::after{
+	  
+	  
+content:"story: 3/10 \a\a The plot of this anime was bad. \a it's either so straightfoward that there \a is not enough to say is good about it or there are major, \a inexcusable plotholes. There is more bad \a to say about the plot than there is good";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=story2"]::after{
+	  
+	  
+content:"Story: 2/10 \a\a The plot of the anime is terrible. \a there is nothing good to say about it. Hopefully this show had something else going for it...";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=story1"]::after{
+	  
+	  
+content:"Story: 1/10 \a\a The plot of this show was physically offenseive. \a I wish I was not subjected to watching this. \a Thinking about it physically hurts. \a The anime most likely either treated the viewer like a retarded child\a or the writers had their heads so far up their ass that they\a couldn't see they were spewing shit and serving it on a plate as\a if it were a five star meal.";
+
+}
+.list-table .list-table-data .data.tags a[href*="=ending"]{
+ 
+    left: calc(var(--full-left-offset-score) + var(--individual-left-offset-score) * 4);
+ 
+}
+.list-table .list-table-data .data.tags a[href*="=ending"]::after{
+	  
+	  
+left: -6rem;
+
+}
+	.list-table .list-table-data .data.tags a[href*="=ending0"]::after{
+	  
+	  
+content:"Ending: 10/10 \a\a  The ending of this anime still gives me goosbumps. \a\ It says something to me, personally. \a One of the most important things for an anime to have is a good conslusion. \a This anime more than Excels in this regard. \a It more than concluded the themes and \a plotpoints of the show, it expanded on them and gave them weight. \a  It's an ending I can still remember to this day";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=ending9"]::after{
+	  
+	  
+content:"Ending: 9/10 \a\a  The ending of this anime is basically perfect. \a There is nothing more I can ask from it. \a The ending perfectly concludes all plotpoints and,\a more importantly, says something of meaning."
+}
+	.list-table .list-table-data .data.tags a[href*="=ending8"]::after{
+	  
+	  
+content:"Ending: 8/10 \a\a I loved the ending to this anime. \a It did an AMAZING job of wrapping up the themes of the show and didn't feel awkward or forced in the slightest . \a The entire anime, from the beggining, built up to this ending."
+}
+	.list-table .list-table-data .data.tags a[href*="=ending7"]::after{
+	  
+	  
+content:"Ending: 7/10 \a\a  The ending of this anime was amazing. \a while it might not have technically wrapped up all the loose ends, \a It did a good job of getting most of them and the ending \a did not feel forced. "
+}
+	.list-table .list-table-data .data.tags a[href*="=ending6"]::after{
+	  
+	  
+content:"Ending: 6/10 \a\a The ending of this anime was very good. \a It did a fairly good job of wrapping up the themes, \a however it may have missed a thing or two. \a It may also have felt slightly abrupt.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=ending5"]::after{
+	  
+	  
+content:"Ending: 5/10 \a\a The ending of this anime is good. \a I enjoyed the ending of this anime and did not ruin my enjoyment of the show in the slightest. \a However, it may have been a hasty ending that was not planned from the \a begnining; it may have been slightly forced into the story, \a but it still made sense.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=ending4"]::after{
+	  
+	  
+content:"Ending: 4/10 \a\a The ending of this anime was okay or did not exist. \a It may have felt slightly out of place and was simply a way of creating \201E an end \201E. \a";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=ending3"]::after{
+	  
+	  
+content:"Ending: 3/10 \a\a The ending of this anime was not enjoyable. \a It may have been abrupt and did not fit into the story. \a At this point, why have an ending at all?";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=ending2"]::after{
+	  
+	  
+content:"Ending: 2/10 \a\a The ending of this anime was terrible. \a It ruined the themes or plotlines of the rest of the show. \a It possibly created a twist in the show that made absolutely no sense.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=ending1"]::after{
+	  
+	  
+content:"Ending: 1/10 \a\a The ending of this show was insulting. \a It spat in the face of anything the show had going for it. \a How did anyone think this was a good idea? \a If I ever rewatch this show I do NOT watch the end again because i couldn't \a bare to be hurt like that again.";
+
+}
+.list-table .list-table-data .data.tags a[href*="=characters"]{
+ 
+    left: calc(var(--full-left-offset-score) + var(--individual-left-offset-score) * 3);
+
+}
+.list-table .list-table-data .data.tags a[href*="=characters"]::after{
+	  
+	  
+left: -7rem;
+
+}
+	.list-table .list-table-data .data.tags a[href*="=characters0"]::after{
+	  
+	  
+content:"Characters: 10/10 \a\a The characters are more interesting and detailed than most real people. \a Which just makes me sound like some cringe emo teenager but \a goddamn just watch the show and you'll see";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=characters9"]::after{
+	  
+	  
+content:"Characters: 9/10 \a\a The characters are like real people and you relate to them as if they were. \a They have problems grounded in reality that you could see actual people having.\a Even if this is the only thing the anime has going for it, it's still one of my favorites."
+}
+	.list-table .list-table-data .data.tags a[href*="=characters8"]::after{
+	  
+	  
+content:"Characters: 8/10 \a\a I LOVE the characters in this anime. \a they have real motivations and issues.\a I often found myself in the character's shoes think \201EWhat if I were them?\201E \a"
+}
+	.list-table .list-table-data .data.tags a[href*="=characters7"]::after{
+	  
+	  
+content:"Characters: 7/10 \a\a  The characters in this show are written amazingly. \a They were always true to their character, and fit into the show theyh wwere put in. \a None of the characters felt out of place, \a and none of them felt like cardboard cutouts."
+}
+	.list-table .list-table-data .data.tags a[href*="=characters6"]::after{
+	  
+	  
+content:"Characters: 6/10 \a\a The characters of this anime had more than one layer to them.\a They had well defined traits that were interesting and flaws \a to add depth to the character";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=characters5"]::after{
+	  
+	  
+content:"Characters: 5/10 \a\a The characters of this anime were somewhat interesting to watch.\a They had at least one defining trait and stuck to it. \a There were no \201EMary Sues\201E or flat characters";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=characters4"]::after{
+	  
+	  
+content:"Characters: 4/10 \a\a The characters of this show may have been a little flat\abut they at least stuck to their character. \a There may have been a /201EMary Sue/201E or perfect character, \a However, the characters were all identifiable on there own \a and were entertaining to watch.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=characters3"]::after{
+	  
+	  
+content:"Characters: 3/10 \a\a The characters of this anime felt out of place \a or had simply confusing elements to them. \a None of the characters were offensive to watch However none of\a them were really charming or interesting.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=characters2"]::after{
+	  
+	  
+content:"Characters: 2/10 \a\a There characters of this show were simply terrible. \a Did a 5 year old come up with these? \a or possibly a chuuni?\a The characters were confusing and did not lend themselves to the story. \a In fact, they distracted from the story from how nonsensical they could be.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=characters1"]::after{
+	  
+	  
+content:"Characters: 1/10 \a\a The characters of this anime were simply offensive. \a The writers most likely think they are being smart by making quirky characters \a but in reality are just masturbating over their own view of who they think they are. \a The characters remind me of the kind of OC's you'd see on tumblr. \a It would be better if there characters were just bland, boring,\a or bad, because then they at least wouldn't be\a physically offensive to watch.";
+
+}
+.list-table .list-table-data .data.tags a[href*="=music"]{
+ 
+    left: calc(var(--full-left-offset-score) + var(--individual-left-offset-score) * 2);
+
+}
+.list-table .list-table-data .data.tags a[href*="=music"]::after{
+	  
+	  
+left: -7rem;
+
+}
+	.list-table .list-table-data .data.tags a[href*="=music0"]::after{
+	  
+	  
+content:"Music: 10/10 \a\a The music in this show is beyond amazing. \a I absolutely love the music and the ENTIRE OST is on my youtube playlist. \a I actively listen to all of the songs from this anime individually and can name many of them after just a few notes. \a The Songs of this anime do more for it than just play pretty music, but add to the scenes they are in. \a Some of them even create the themes and display the thoughts of the characters in the scenes they are in. \a The themes of these anime can even be heard in their sound track. \a Many of the greatest scenes in anime are backed by perfect sound choice (sometimes that means silence) \a and the anime in this catagory perfectly exemplefy that. \a The sound tracks to these anime display what true art is. ";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=music9"]::after{
+	  
+	  
+content:"Music: 9/10 \a\a  The music in this show deserves its own album. \a I watch parts of this anime simply to listen to its music, even if the anime itself isn't great. \a The anime utilizes every aspect of sound design to the fullest in every scene. \a This is what other shows should aspire to do. "
+}
+	.list-table .list-table-data .data.tags a[href*="=music8"]::after{
+	  
+	  
+content:"Music: 8/10 \a\a  I adore the music in this anime. \a Every element of the music lends itself to the anime. \a the the greatest scenes were set by the greatest music. \a The sound design was amazing.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=music7"]::after{
+	  
+	  
+content:"Music: 7/10 \a\a This anime had amazing music. \a The music is  memorable and really elevates many good scenes to be great. \a There is one or two songs on this OST that I have on my youtube playlist."
+}
+	.list-table .list-table-data .data.tags a[href*="=music6"]::after{
+	  
+	  
+content:"Music: 6/10 \a\a The music in the anime was great. \a There was at least one song in this anime that I can specifically refer to as fantastic. \a None of the music was out of place and the anime \a had proper sound design that fit the scenes and tones well.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=music5"]::after{
+	  
+	  
+content:"Music: 5/10 \a\a The music in this anime was good. \a most of the pieces fit the scene they were used in and \a they were all nice to listen to.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=music4"]::after{
+	  
+	  
+content:"Muisc: 4/10 \a\a The music in this anime was okay. \a There may have been one or two pieces in the ost that i was not a fan of,\a but overall it was cohesive.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=music3"]::after{
+	  
+	  
+content:"Muisc: 3/10 \a\a The music in this anime was bad. \a not only was more than one of the tracks hard to listen to, \a the anime used sound design that did not apropriately fit the scene \a or felt simply cheap.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=music2"]::after{
+	  
+	  
+content:"Music: 2/10 \a\a The music in this show was horrendous. \a The music was memorable for how bad it is. \a many good scenes were ruined from just how distracting the music and sound design were.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=music1"]::after{
+	  
+	  
+content:"Music: 1/10 \a\a The music in theis anime was physically offensive. \a I would rather pierce my own eardrums than listen to it again. \a The music ruined the rest of what may have been a good anime. \a I'm simply angry at how much better this anime could have been if the \a music didn't frustrate me to listen to.";
+
+}
+.list-table .list-table-data .data.tags a[href*="=animation"]{
+ 
+    left: calc(var(--full-left-offset-score) + var(--individual-left-offset-score));
+
+}
+.list-table .list-table-data .data.tags a[href*="=animation"]::after{
+	  
+	  
+left: -7rem;
+
+}
+	.list-table .list-table-data .data.tags a[href*="=animation0"]::after{
+	  
+	  
+content:"Animation: 10/10 \a\a  The Animation in this show is eyegasmic. \a Did they throw millions of dollars at the show just to make it look good?\a Other anime cannot even aspire to have animation like this. \a  It takes a whole team working perfectly together for it to look \a this good; from the director to each animation to even the tweeners. \a This animation is the reason I watch anime. \a The animation has an individual style to it that makes it uniquely belong to this show\a I can see a single frame and know EXACTLY where it came from.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=animation9"]::after{
+	  
+	  
+content:"Animation: 9/10 \a\a The animation in this anime is some of my all time favorite. \a The animation is what all other anime should aspire to create. \a There is love and passion ut into every frame. \a Sometimes, I rewatch this show just to look at this GORGEOUS animation."
+}
+	.list-table .list-table-data .data.tags a[href*="=animation8"]::after{
+	  
+	  
+content:"Animation: 8/10 \a\a I LOVE the animation. \a This show could be a painting.\a The characters in the show are more expressive than they could be if they were live action. \a Animation at this level is why the show deserves to be an anime.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=animation7"]::after{
+	  
+	  
+content:"Animation: 7/10 \a\a The animtion of this show was amazing. \a It was created with passion with not a single frame out of place. \a You could tell the animators loved to work on this project as it came through in their work."
+}
+	.list-table .list-table-data .data.tags a[href*="=animation6"]::after{
+	  
+	  
+content:"Animation: 6/10 \a\a The animation from this anime was great. \a There was at least one moment of animation in the show that truly blew me away, \a no matter how subtle or over the top it may have been. \a However, there may be parts of the animation that \a were shortcut in order to save budget.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=animation5"]::after{
+	  
+	  
+content:"Animation: 5/10 \a\a The animation in this anime was good. \a Throught the show the charactes were alive and not simply cardboard cutouts. \a However backgrounds or background characters' detail may have been skimmed over. ";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=animation4"]::after{
+	  
+	  
+content:"Animation: 4/10 \a\a The animation of this show was okay. \a There were no moments that I found to be truly spectacular,\a however there was also no moments that were so bad that it distracted from the scene.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=animation3"]::after{
+	  
+	  
+content:"Animation: 3/10 \a\a The animation in this anime was bad.\a there were a few odd looking moments within the show that ruined the scene. \a however, the animation was generally okay throughout the show. ";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=animation2"]::after{
+	  
+	  
+content:"Animation: 2/10 \a\a The animation of this show was horrible. There were mustiple moments throughout the show that were bad enough for me to have to stop it. \a In fact, at no point was there anything that could even be considered acceptable.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=animation1"]::after{
+	  
+	  
+content:"Animation: 1/10 \a\a The animation was physically offenseive. \a Did the artsists not think we have eyes??? \a hell, the animation is worse than family guy. \a anything the show had going for it is ruined by the fact that i want to puke everytime i look at it.";
+
+}
+.list-table .list-table-data .data.tags a[href*="=directing"]{
+ 
+    left: var(--full-left-offset-score);
+    
+}
+.list-table .list-table-data .data.tags a[href*="=directing"]::after{
+	  
+	  
+left: -7rem;
+
+}
+	.list-table .list-table-data .data.tags a[href*="=directing0"]::after{
+	  
+	  
+content:"Directing: 10/10 \a (includes directing, writing for the dialouge, and visual storytelling)\a \a  The directing in this anime is truly a work of art. \a Characters in the show had dynamic conversation that truly displayed their character. \a The visuals were used in a way that only anime can truly do and it tkaes the medium to a whole new level.\a It uses symbolism and visuals to tell and enhance the story \a rather that just dialouge to make the truly interesting to WATCH. \a In fact, you could probably watch the show without sound and still \a know everything thats happening just from the directing alone.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=directing9"]::after{
+	  
+	  
+content:"Directing: 9/10 \a (includes directing, writing for the dialouge, and visual storytelling)\a \a The directing in the anime is some of my favorite directing of all time. \a The directior uses interesing visuals and set up queues set up throught \a the anime to tell the story, rather than boring dialouge."
+}
+	.list-table .list-table-data .data.tags a[href*="=directing8"]::after{
+	  
+	  
+content:"Directing: 8/10 \a (includes directing, writing for the dialouge, and visual storytelling)\a\a I loved the directing of this anime. \a It truly set it apart from others. \a scenes were dynamic and flowed will with each other. There were visual themes and queues throught the show.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=directing7"]::after{
+	  
+	  
+content:"Directing: 7/10 \a (includes directing, writing for the dialouge, and visual storytelling)\a\a The directing in this anime is amazing. \a each scene was well thought out how it played into the story as a whole.\a the dialouge throught the scene was complex and wasn't just \201DYou're the bad guy!\201D \a or \201DI'm sad because bad thing happened!\201D \a lighting in the scenes was used well to display the scene's mood."
+}
+	.list-table .list-table-data .data.tags a[href*="=directing6"]::after{
+	  
+	  
+content:"Directing: 6/10 \a (includes directing, writing for the dialouge, and visual storytelling)\a\a The directing in this show is great. \a The show adaquately displays character vulnerabilities by \a what they DON'T say at time, it also apropriately \a uses lighting in scenes to set the mood. ";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=directing5"]::after{
+	  
+	  
+content:"Directing: 5/10 \a (includes directing, writing for the dialouge, and visual storytelling)\a\a The direcing in this show was good.\a There were moments in the show where I thought that the directing \a came up with an ingenous idea for how to tell a certain part \a of the story or character. \a however, pacing may have been clunky at times. ";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=directing4"]::after{
+	  
+	  
+content:"Directing: 4/10 \a (includes directing, writing for the dialouge, and visual storytelling)\a\a The directing of this show was okay.\a There may have been a place or two where things felt clunky, where \a it was the pacing, the dialouge, or simply bad and boring camera angles. \a However, in general, there was a minimum level of quality that was achieved \a and the minimum level of thought put into each scene.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=directing3"]::after{
+	  
+	  
+content:"Directing: 3/10 \a (includes directing, writing for the dialouge, and visual storytelling)\a\a The directing of this anime was bad.\a there were moments in the show that were simply out of place. \a The camera work in the show did nothing interesting and probably just did a cafe scene for most of the anime.\a the dialouge was childish and straightforward. \a the scenes all looked the same.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=directing2"]::after{
+	  
+	  
+content:"Directing: 2/10 \a (includes directing, writing for the dialouge, and visual storytelling)\a\a The directing of this show was horrendous. There was not a single part of the directing that made me say \201DThat's interesting.\201D \a The dialogue mosty consisted of \201DI'm sad because bad thing happened.\201D \a It was hard to watch the show simply due to poor directing.";
+
+}
+	.list-table .list-table-data .data.tags a[href*="=directing1"]::after{
+	  
+	  
+content:"Directing: 1/10 \a (includes directing, writing for the dialouge, and visual storytelling)\a\a The directing in this show was personally offensive. \a The show insulted the viewers' intelligence. \a Dialouge mostly consisted of \201DI will explain to you my whole character because I don't think \a you are smart enough to understand my motivations if I were to show it to you.\201D \a Visuals were generally just a shot of the speaking character's face without any more thought put into it. \a Mostly, watching this show made me angry. \a I'm fairly certain the director was treating their audience like retarded children." ;
+
+}
  /*----------------------------------------___         _----------\
 |---HOVER EFFECTS ---------------------   |___  |\ |  | \----------|
  \----------------------------------------|___  | \|  | /--------*/
