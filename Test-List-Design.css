@@ -1117,7 +1117,7 @@ border-color: var(--score-one-color);
 /* THIS SECTION IS FOR THE PROGRESS BAR OF THE SCORE*/
 
 
-.score-10::before{
+span.score-label.score-10::before{
   
    color: #edc732;
    content: "\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
@@ -1130,7 +1130,7 @@ border-color: var(--score-one-color);
     font-size: var(--sizeof-score) !important;
     line-height: var(--heightof-score);
 }
-.score-9::before{
+span.score-label.score-9::before{
   
   color: #ff2109;
   content: "\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
@@ -1143,7 +1143,7 @@ border-color: var(--score-one-color);
     font-size: var(--sizeof-score) !important;
     line-height: var(--heightof-score);
 }
-.score-8::before{
+span.score-label.score-8::before{
   
   color: #e575aa;
   content: "\a\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
@@ -1156,7 +1156,7 @@ border-color: var(--score-one-color);
     font-size: var(--sizeof-score) !important;
     line-height: var(--heightof-score);
 }
-.score-7::before{
+span.score-label.score-7::before{
   
   color: #a359b8;
   content: "\a\a\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
@@ -1169,7 +1169,7 @@ border-color: var(--score-one-color);
     font-size: var(--sizeof-score) !important;
     line-height: var(--heightof-score);
 }
-.score-6::before{
+span.score-label.score-6::before{
   
    color: #7550c5;
    content: "\a\a\a\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a";
@@ -1182,7 +1182,7 @@ border-color: var(--score-one-color);
     font-size: var(--sizeof-score) !important;
     line-height: var(--heightof-score);
 }
-.score-5::before{
+span.score-label.score-5::before{
   
   color: #354eb0;
   content: "\a\a\a\a\a\25FC\a\25FC\a\25FC\a\25FC\a\25FC\a\a";
@@ -1194,7 +1194,8 @@ border-color: var(--score-one-color);
     white-space: pre !important;
     font-size: var(--sizeof-score) !important;
     line-height: var(--heightof-score);
-}.score-4::before{
+}
+span.score-label.score-4::before{
   
    color: #2f81a1;
    content: "\a\a\a\a\a\a\25FC\a\25FC\a\25FC\a\25FC\a";
@@ -1207,7 +1208,7 @@ border-color: var(--score-one-color);
     font-size: var(--sizeof-score) !important;
     line-height: var(--heightof-score);
 }
-.score-3::before{
+span.score-label.score-3::before{
   
   color: #358581;
   content: "\a\a\a\a\a\a\a\25FC\a\25FC\a\25FC\a";
@@ -1220,7 +1221,7 @@ border-color: var(--score-one-color);
     font-size: var(--sizeof-score) !important;
     line-height: var(--heightof-score);
 }
-.score-2::before{
+span.score-label.score-2::before{
   
     color: #315043;
    content: "\a\a\a\a\a\a\a\a\25FC\a\25FC\a";
@@ -1233,7 +1234,7 @@ border-color: var(--score-one-color);
     font-size: var(--sizeof-score) !important;
     line-height: var(--heightof-score);
 }
-.score-1::before{
+span.score-label.score-1::before{
   
     color: #262a26;
    content: "\a\a\a\a\a\a\a\a\a\25FC\a";
