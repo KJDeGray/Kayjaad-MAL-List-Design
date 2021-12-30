@@ -1129,7 +1129,7 @@ border-color: var(--score-one-color);
     white-space: pre !important;
     font-size: var(--sizeof-score) !important;
     line-height: var(--heightof-score);
-]
+}
 .score-9::before{
   
   color: #ff2109;
